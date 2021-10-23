@@ -202,3 +202,9 @@ align-self: center;
     margin-top: 25px;
     align-content: center;
 }
+
+@media(max-width:568px){
+    .parallax1, .parallax2, .parallax3 {
+        background-attachment: scroll;
+    }
+}
