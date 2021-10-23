@@ -131,7 +131,7 @@ body {
        justify-content: center;
        background-image: url(BG1.jpg);
        min-height: 50rem;
-       background-attachment: fixed;
+       background-attachment:scroll;
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
@@ -142,7 +142,7 @@ body {
     justify-content: center;
     background-image: url(BG2.jpg);
     min-height: 50rem;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,7 +153,7 @@ body {
     justify-content: center;
     background-image: url(BG3.jpg);
     min-height: 50rem;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
