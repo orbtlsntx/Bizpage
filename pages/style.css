@@ -172,12 +172,14 @@ body {
     width: 50px;
     text-align:center;
     
+    
 }
 
 .fa-facebook {
     background: #3b5998;
     color: white;
     border-radius: 360px;
+    
 }
 
 .fa-twitter {
@@ -187,6 +189,7 @@ body {
 .fa-instagram {
     background: linear-gradient(120DEG,#1D89f4, #00db78,#f7bf18, #d33131);
     color: white;
+    
 }
 
 
@@ -198,9 +201,11 @@ align-self: center;
 
 .stickybar {
     display:flex;
-    justify-content: space-around;
-    margin-top: 25px;
+    justify-content:center;
+    justify-items: left;
+    margin-top: 2.5rem;
     align-content: center;
+    
 }
 
 
@@ -208,4 +213,11 @@ align-self: center;
     .parallax1, .parallax2, .parallax3  {       
         background-attachment: scroll;
     }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
 }
