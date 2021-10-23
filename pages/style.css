@@ -206,5 +206,6 @@ align-self: center;
 @media(max-width:568px){
     .parallax1, .parallax2, .parallax3 {
         background-attachment: scroll;
+        background-size: auto;
     }
 }
