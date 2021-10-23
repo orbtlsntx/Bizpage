@@ -130,7 +130,7 @@ body {
        display: flex;
        justify-content: center;
        background-image: url(BG1.jpg);
-       min-height: 50%;
+       min-height: 50rem;
        background-attachment: fixed;
        background-position: center;
        background-repeat: no-repeat;
@@ -141,7 +141,7 @@ body {
     display: flex;
     justify-content: center;
     background-image: url(BG2.jpg);
-    min-height: 50%;
+    min-height: 50rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -152,7 +152,7 @@ body {
     display: flex;
     justify-content: center;
     background-image: url(BG3.jpg);
-    min-height: 50%;
+    min-height: 50rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
