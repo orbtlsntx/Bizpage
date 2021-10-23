@@ -18,7 +18,6 @@ body {
 }
 
 .brand-title {
-    font-family: orbitron;
     font-size: 2rem;
     margin: .65rem;
     background-color: #333;
@@ -64,15 +63,18 @@ body {
     border-radius: 10px;
 }
 
+
+
 @media (max-width: 400px) {
-    .toggle-button {
+    .toggle-button  {       
         display: flex;
-    }}
+    }
     
     .navbar-links {
-        display:none; 
+        display:none;
         width: 100%;
-    }
+     }
+
 
     .navbar {
         flex-direction: column;
@@ -96,23 +98,107 @@ body {
         display:flex;
     }
 
+    .overlay {
+        position:fixed;
+        width:100%;
+        top: 0;
+        left: 0;
+    }
+}
+
     .logo1 {
         height: 300px;
         width: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 150px;
+        margin-top: 100px;
         border-radius: 360px;
     }
 
     .title {
         display: flex;
         justify-content:center;
+        text-align: center;
         color:white;
-        margin: 0px
+        margin: 7px;
+        margin-bottom: 25px;
     }
+   
 
-    img { 
-        max-width: max-content;
-    }
+   .parallax1 {
+       display: flex;
+       justify-content: center;
+       background-image: url(BG1.jpg);
+       min-height: 500px;
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+
+   .parallax2 {
+    display: flex;
+    justify-content: center;
+    background-image: url(BG2.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    display: flex;
+    justify-content: center;
+    background-image: url(BG3.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.fa {
+    text-decoration: none;
+  
+    font-size: 30px;
+    width: 50px;
+    text-align:center;
+    
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+    border-radius: 360px;
+}
+
+.fa-twitter {
+    background: #55Acee;
+    color: white;
+}
+.fa-instagram {
+    background: linear-gradient(120DEG,#1D89f4, #00db78,#f7bf18, #d33131);
+    color: white;
+}
+
+
+.info {
+text-decoration: none;
+color: white;
+align-self: center;
+}
+
+.stickybar {
+    display:flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    align-content: center;
+}
