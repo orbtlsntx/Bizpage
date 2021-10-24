@@ -158,7 +158,12 @@ body {
     text-decoration: none;
     color: white;
     padding-bottom: 2rem;
+    text-align: center;
 
+}
+
+.aboutp {
+    text-align: center;
 }
 
 .parallax3 {
