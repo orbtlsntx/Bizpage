@@ -44,7 +44,7 @@ body {
 
 
 
-.about-content, .service-content {
+.about-content, .service-content, .contact-content {
     display: flex;
     max-height:fit-content;
     background-color: rgba(204, 220, 231,60%);
@@ -58,6 +58,12 @@ body {
     margin-right:5rem;
     margin-top: 15rem;
     padding:2rem;
+}
+
+button {
+    background-color: rgb(76, 76, 150);
+    color:whitesmoke;
+    border-radius: 1em;
 }
 
 
