@@ -236,7 +236,7 @@ align-self: center;
 }
 
 .temppageborder1, .temppageborder2 {
-    height: 15vh;
+    
     width: 100%;
 
 }
@@ -244,11 +244,13 @@ align-self: center;
 .temppageborder1 {
     background-image: url(nebula1.jpg);
     background-position: center;
+    height: 18vh;
 }
 
 .temppageborder2 {
     background-image: url(nebula2.jpg);
     background-position: center;
+    height: 15vh;
 }
 
 .bodycontent {
