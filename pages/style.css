@@ -130,7 +130,7 @@ body {
        display: flex;
        justify-content: center;
        background-image: url(BG1.jpg);
-       min-height: 50rem;
+       min-height: 20rem;
        background-attachment:fixed;
        background-position: center;
        background-repeat: no-repeat;
@@ -141,7 +141,7 @@ body {
     display: flex;
     justify-content: center;
     background-image: url(BG2.jpg);
-    min-height: 50rem;
+    min-height: 20rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,25 +155,30 @@ body {
 }
 
 .pglink {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 2rem;
+
 }
 
 .parallax3 {
     display: flex;
     justify-content: center;
     background-image: url(BG3.jpg);
-    min-height: 50rem;
+    min-height: 20rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
 
 .contactinfo {
     display: flex;
     flex-direction: column;
    
+}
+.info {
+    text-align: center;
 }
 
 .fa {
