@@ -130,7 +130,7 @@ body {
        display: flex;
        justify-content: center;
        background-image: url(BG1.jpg);
-       min-height: 20rem;
+       min-height: 25rem;
        background-attachment:fixed;
        background-position: center;
        background-repeat: no-repeat;
@@ -141,11 +141,17 @@ body {
     display: flex;
     justify-content: center;
     background-image: url(BG2.jpg);
-    min-height: 20rem;
+    min-height: 25rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+ul, li {
+    text-align: center;
+    list-style: none;
+    
 }
 
 .pagelink {
@@ -170,7 +176,7 @@ body {
     display: flex;
     justify-content: center;
     background-image: url(BG3.jpg);
-    min-height: 20rem;
+    min-height: 25rem;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
