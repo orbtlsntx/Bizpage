@@ -257,6 +257,61 @@ align-self: center;
     height:70vh;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+   
+    
+    align-content: center;
+  
 }
 
+.imglink2, .imglink1, .imglink3 {
+    float: left;
+    width:  26rem;
+    height: 20rem;
+    object-fit:cover;
+  
+}
+
+.imglink1 {
+    padding-left: 2rem;
+}
+
+.imglink3 {
+    padding-right: 2rem;
+}
+
+.cap1, .cap2, .cap3 {
+    text-decoration: none;
+    
+    color:white;
+}
+
+
+@media (max-width: 1000px) {
+    .imglink2, .imglink1, .imglink3 {
+        float: left;
+        width:  20rem;
+        height: 15rem;
+        object-fit:cover;
+    }
+   .imglink2 {
+       padding-left: 2rem;
+       padding-right: 2rem;
+   }
+    .imglink1 {
+        padding-right: 2rem;
+    }
+    .imglink3 {
+        padding-left: 2rem;
+    }
+    .cap2, .cap3 {
+        padding-left: 2rem;
+    }
+    .bodycontent {
+        height:auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+}
