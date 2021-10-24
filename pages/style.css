@@ -260,9 +260,3 @@ align-self: center;
     align-items: center;
 }
 
-.pglink {
-    float: left;
-    width:  15rem;
-    height: 12rem;
-    object-fit: cover;
-}
