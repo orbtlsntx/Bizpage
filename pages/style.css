@@ -148,6 +148,17 @@ body {
     background-size: cover;
 }
 
+.pagelink {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.pglink {
+text-decoration: none;
+color: white;
+}
+
 .parallax3 {
     display: flex;
     justify-content: center;
@@ -202,7 +213,6 @@ align-self: center;
 .stickybar {
     display:flex;
     justify-content:center;
-    justify-items: left;
     margin-top: 2.5rem;
     align-content: center;
     
@@ -212,6 +222,8 @@ align-self: center;
 @media (max-width: 1000px) {
     .parallax1, .parallax2, .parallax3  {       
         background-attachment: scroll;
+        
+        
     }
 }
 
@@ -219,5 +231,36 @@ align-self: center;
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
     
+}
+
+.temppageborder1, .temppageborder2 {
+    height: 15vh;
+    width: 100%;
+
+}
+ 
+.temppageborder1 {
+    background-image: url(nebula1.jpg);
+    background-position: center;
+}
+
+.temppageborder2 {
+    background-image: url(nebula2.jpg);
+    background-position: center;
+}
+
+.bodycontent {
+    height:70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pglink {
+    float: left;
+    width:  15rem;
+    height: 12rem;
+    object-fit: cover;
 }
